@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    background-color: beige;
+    width: 80%;
+    margin: auto;
+}
+
+#form input {
+    padding: 20px 5px;
+    height: 20px;
+    font-family: inherit;
+
+}
+
+#login {
+    background-color: #fff;
+    width: 120px;
+    font-family: inherit;
+    font-size: large;
+}
+
+/* Grid*/
+.grid {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    gap: 2%;
+    grid-template-columns: 65% 33%;
+    grid-template-rows: 100%;
+    margin-top: 20px;
+
+}
+
+.grid-left {
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 100vh;
+    border-right: 1px solid #00000030;
+
+}
+
+.grid-right {
+
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 100vh;
+}
+/*Cards*/
+
+.grid-card {
+    width: 90%;
+    margin: 3vh auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00000030;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+
+.card-right {
+    padding: 10px;
+}
+
+/*Agregar definicion*/
+
+.addDefinition {
+    width: 90%;
+    margin: 3vh auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #00000030;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.botones {
+    padding: 10px 15px;
+    border:none;
+    background-color: beige;
+    border-radius: 2px;
+    box-shadow: 0 0 4px #00000070;
+    cursor: pointer;
+
+}

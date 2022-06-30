@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="nav">
+        <h1>Dojonary</h1>
+        <form id="form">
+            <input type="text" placeholder="Search">         
+        </form>
+        <button class="botones" id="login" onclick="turnLogin(this)">Login</button>
+    </nav>
+
+    <main>
+        <div class="grid">
+            <section class="grid-left">
+                <div class="grid-card">
+                    <section class="card-left">
+                        <h2>ninja</h2>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button class="botones" onclick="alertar(this)">15 likes</button>
+                    </section>
+                    <section class="card-right">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero soluta</p>
+                    </section>
+                </div>
+                <div class="grid-card">
+                    <section class="card-left">
+                        <h2>ninja</h2>
+                        <p>noun</p>
+                        <p>Plural: ninjas</p>
+                        <button class="botones" onclick="alertar(this)">15 likes</button>
+                    </section>
+                    <section class="card-right">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero soluta</p>
+                    </section>
+                </div>
+            </section>
+            <section class="grid-right">
+                <div class="addDefinition" >
+                    <h3>Dojonary is defined by YOU</h3>
+                    <button class="botones" onclick="remover(this)">Add Definition</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
