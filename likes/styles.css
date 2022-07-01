@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif; 
+    text-align: center;
+    
+}
+nav {
+    background-color: beige;
+    height: 10vh;
+    width: 70%;
+    padding-top: 1vh;
+    border-radius: 10px;
+    box-shadow: 0 0 12px #00000030;
+    margin: 0 auto 5vh; 
+    font-size: 3rem;
+
+}
+
+h2 {
+    margin: 5vh;
+}
+.flex {
+    display: flex;
+    background-color: beige;
+    width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px #00000030;
+    height: 100vh;
+}
+.flex-r {
+    width: 68%;
+}
+.flex-l {
+    width: 30%;
+}
+
+.card-profile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 4px #00000050;
+    margin: 5vh auto;
+    border: 1px solid #00000030;
+    border-radius: 4px;
+    padding: 15px;
+    align-items: center;
+    gap: 4vh;
+}
+
+.card-profile img{
+    width: 50%;
+    margin: 5vh auto;
+    border-radius: 50%;
+    border: 1px solid #00000050;
+    
+}
+
+.card-profile a {
+    font-size: 1.2rem;
+}
+.card-profile p {
+    font-size: 1.6rem;
+}
+.card {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 4px #00000050;
+    margin: 5vh auto;
+    border: 1px solid #00000030;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.top-s {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bot-s {
+    width: 90%;
+    margin: 15px auto;
+    text-align: start;
+}
+.count {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.likes {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 2px #000000;
+    background-color: rgb(177, 229, 247);
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.contador {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
